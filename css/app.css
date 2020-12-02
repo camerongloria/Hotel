@@ -1,0 +1,73 @@
+body {
+	background-color:#E0E1CA;
+}
+header {
+	background-color:#BDBEA3;
+	padding:1rem;
+}
+header a {
+	color:white;
+}
+.hero img {
+	width:100%;
+}
+.kitchen.jpg {
+	align-content:center;
+}
+.table {
+	font-family:Gill Sans MT;
+	color:#134411;
+}
+.submit {
+	background-color:white;
+	color:#134411;
+}
+.card img {
+	width:50%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+h1 {
+	background-color:white;
+	text-align:center;
+	color:#134411;
+	padding:1rem;
+	font-family:Gill Sans MT;
+}
+h2 {
+	padding:10px;
+	font-family:Gill Sans MT;
+}
+h4 {
+	color:#134411;
+	background-color:white;
+	border-radius:30px;
+	text-align:center;
+	padding-top:1rem;
+	padding-bottom:1rem;
+	font-family:Gill Sans MT;
+}
+ul {
+	list-style-type:none;
+	color:#A58E40;
+	text-align:center;
+	font-family:Gill Sans MT;
+}
+h3 {
+	padding:10px;
+	text-align:center;
+	color:#134411;
+	font-family:Gill Sans MT;
+}
+p {
+	color:#A58E40;
+	text-align:center;
+	font-family:Gill Sans MT;
+	padding-left:10px;
+	padding-right:10px;
+}
+footer {
+	background-color:#BDBEA3;
+	padding:40px;
+}

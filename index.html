@@ -1,0 +1,136 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+     <script src="https://kit.fontawesome.com/8f111cc0bd.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+   <header>
+    <div class="grid-x">
+      <div class="cell small-6">
+        <img src="img/logo.svg">
+      </div>
+      <ul class="menu align-right">
+        <div class="cell small-6">
+          <li><a href="#">Booking</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Features</a></li>
+        </div>
+      </ul>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="grid-x">
+      <div class="cell small-6">
+        <img src="img/kitchen.jpg">
+      </div>
+      <div class="cell small-6">
+        <img src="img/couch.jpg">
+      </div>
+    </div>
+    <h3> Welcome to The Dragonfly, located in Wellfleet, Massachusetts! This two story hotel is only a 10-minute walk from the beach and offers a comfortable and relaxing stay for our guests. We offer many services and features that you can read about below. </h3>
+  </section>
+
+   <table class="table">
+      <thead>
+        <tr class="grid-x">
+          <th class="cell small-6">Check in:
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+          <th class="cell small-6">Check out:
+            <input type="text" class="span2" value="" id="dpd2">
+          </th>
+        </tr>
+        <tr class="grid-x">
+          <th class="cell">
+            <input type="submit" class="submit button radius small" value="Check Availability" data-open="confirmation-overlay">
+          </th>
+        </tr>        
+      </thead>
+    </table>
+
+    <!-- overlay window with spans used to show data from datepicker -->
+    <div id="confirmation-overlay" class="reveal" data-reveal>
+      <div class="row">
+        <div class="cell large-7">
+          <div class="overlay">
+            <h1>Success</h1>
+            <h2>You've booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+          </div>
+        </div>
+      </div>
+      <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+  <section services>
+    <h1>Services</h1>
+    <h3>At The Dragonfly you will be offered:</h3>
+    <ul>
+      <li>Room service</li>
+      <li>Laundry service</li>
+      <li>Lock boxes</li>
+      <li>Complimentary robes</li></ul>
+  </section>
+  
+  <div class="card">
+    <img src="img/cafe.jpg">
+    <div class="card-selection">
+      <h3>Café</h3>
+      <p>The Dragonfly features our café attached to the lobby of our building. We offer coffee and espresso beverages and tasty pastries.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="img/lounge.jpg">
+    <div class="card-selection">
+      <h3>Dragonfly Lounge</h3>
+      <p>Join us at the Dragonfly Lounge where we can serve you from breakfast, to lunch, to dinner.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="img/spa.jpg">
+    <div class="card-selection">
+      <h3>Spa</h3>
+      <p>Book a relaxing reservation at our spa that offers massages, facials, and body wraps.</p>
+    </div>
+  </div>
+
+  <h4>Back to Top</h4>
+
+</body>
+
+  <footer>
+    <div class="grid-x">
+      <div class="cell small-6">
+        <p>1510 Cahoon Hollow Rd, Wellfleet, Massachusetts 02667</p>
+        <p>All Social Media: @the.dragonfly</p>
+      </div>
+      <div class="cell small-6">
+        <img src="img/logo.svg">
+      </div>
+    </div>
+  </footer>
+
+    <!-- datepicker widget -->
+  
+  </body>
+
+</html>
